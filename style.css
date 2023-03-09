@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(231, 211, 205);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.header{
+    display:flex;
+    height: 250px;
+    width: 100%;
+    background-image: url("img/images.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover
+}
+
+.header h1{
+    font-size:70px;
+    padding: 50px;
+    color: rgb(180, 96, 121);
+}
+
+.header p{
+    font-size:15px;
+    color: rgb(139, 98, 121);
+    float: right;
+    padding-top: 150px;
+    text-align: justify;
+    margin: 5px;
+    font-family: monospace;
+}
+
+.banner{
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    height: 300px;
+}
+
+.banner h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(235, 236, 178);
+    margin: 20px;
+}
+
+.banner p{
+    text-align: justify;
+    color:rgb(245, 242, 242);
+    margin:50px; 
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+hr{
+    border: 5px rgb(206, 137, 137) solid;
+    margin: 10px;
+}
+
+.per{
+    margin: 10px;
+    height: 50PX;
+    display: flex;
+    overflow: hidden;
+    border: 3PX solid rgb(65, 42, 42);
+    color: rgb(161, 92, 70);
+}
+
+.per h1{
+    margin: 5px;
+}
